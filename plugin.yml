@@ -1,0 +1,16 @@
+name: OfficialList
+author: nanfans
+version: 1.32
+main: org.nanfans.OfficialList
+commands:
+  ol:
+    description: 核心权限
+    usage: /<command>
+    permission: officiallist.admin
+    permission-message: §f[§aOfficialList§f] 权限不足
+    
+  officiallist:
+    description: 核心权限
+    usage: /<command>
+    permission: officiallist.admin
+    permission-message: §f[§aOfficialList§f] 权限不足

@@ -1,0 +1,22 @@
+#插件前缀
+prefix: "&f[&aOfficialList&f] "
+ 
+#屏幕顶部显示内容
+NotOnList: "你处于游览模式"
+
+#玩家被列入白名单时，收到的文字提示
+AddSuccess: "你已被列入白名单"
+
+#非白名单玩家尝试发言时，收到的文字提示（发言会被拦截，若使用了跨服聊天插件，此功能将失效！）
+OnChat: "你处于游览模式，不可发言"
+
+#非白名单玩家尝试键入指令时，收到的文字提示（登录插件指令不会被拦截）
+OnCommand: "你不可以使用指令"
+
+#数据库连接参数（设置后插件才可正常使用）
+mysql:
+  host: localhost
+  port: 3306
+  user: root
+  password: root
+  database: database
